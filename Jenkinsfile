@@ -3,8 +3,8 @@ pipeline {
 
  environment {
 
-     AWS_ACCESS_KEY_ID     = credentials('SAUD-aws-secret-key-id')
-     AWS_SECRET_ACCESS_KEY = credentials('SAUD-aws-secret-access-key')
+     AWS_ACCESS_KEY_ID     = credentials('saud-aws-secret-key-id')
+     AWS_SECRET_ACCESS_KEY = credentials('saud-aws-secret-access-key')
 
      AWS_S3_BUCKET         = "saud-belt2d2-artifacts-123456"
      AWS_REGION            = "us-east-1"
